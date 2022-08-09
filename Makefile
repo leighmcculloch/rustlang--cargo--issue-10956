@@ -8,6 +8,5 @@ demo:
 	cargo build -p bbb
 	cargo run bbb
 	@echo "---- build workspace (again), and run bbb"
-	cargo clean
 	cargo build
 	cargo run bbb
